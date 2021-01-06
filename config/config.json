@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "link-btn-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/linkBtn/LinkBtnWebPart.js",
+          "manifest": "./src/webparts/linkBtn/LinkBtnWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "LinkBtnWebPartStrings": "lib/webparts/linkBtn/loc/{locale}.js"
+  }
+}

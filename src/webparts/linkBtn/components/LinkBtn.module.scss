@@ -1,0 +1,438 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+// .linkBtn {
+//   .container {
+//     max-width: 700px;
+//     margin: 0px auto;
+//     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+//   }
+
+//   .row {
+//     @include ms-Grid-row;
+//     @include ms-fontColor-white;
+//     background-color: $ms-color-themeDark;
+//     padding: 20px;
+//   }
+
+//   .column {
+//     @include ms-Grid-col;
+//     @include ms-lg10;
+//     @include ms-xl8;
+//     @include ms-xlPush2;
+//     @include ms-lgPush1;
+//   }
+
+//   .title {
+//     @include ms-font-xl;
+//     @include ms-fontColor-white;
+//   }
+
+//   .subTitle {
+//     @include ms-font-l;
+//     @include ms-fontColor-white;
+//   }
+
+//   .description {
+//     @include ms-font-l;
+//     @include ms-fontColor-white;
+//   }
+
+//   .button {
+//     // Our button
+//     text-decoration: none;
+//     height: 32px;
+
+//     // Primary Button
+//     min-width: 80px;
+//     background-color: $ms-color-themePrimary;
+//     border-color: $ms-color-themePrimary;
+//     color: $ms-color-white;
+
+//     // Basic Button
+//     outline: transparent;
+//     position: relative;
+//     font-family: "Segoe UI WestEuropean","Segoe UI",-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
+//     -webkit-font-smoothing: antialiased;
+//     font-size: $ms-font-size-m;
+//     font-weight: $ms-font-weight-regular;
+//     border-width: 0;
+//     text-align: center;
+//     cursor: pointer;
+//     display: inline-block;
+//     padding: 0 16px;
+
+//     .label {
+//       font-weight: $ms-font-weight-semibold;
+//       font-size: $ms-font-size-m;
+//       height: 32px;
+//       line-height: 32px;
+//       margin: 0 4px;
+//       vertical-align: top;
+//       display: inline-block;
+//     }
+//   }
+// }
+
+* { 
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+     box-sizing: border-box; 
+}
+.axaMansardSharepoint {
+	width: 100%;
+	height: 30rem;
+}
+
+.dochead{
+    color: rgb(0, 0, 91);
+    font-size: 20px;
+    font-weight: 600;
+}
+.axaaxaMansardSharepoint {
+	img {
+		min-height: 30rem;
+	}
+}
+.alertBtns {
+	width: 15%;
+	height: 3rem;
+	background: darkblue;
+	float: left;
+	color: white;
+    i{
+        float:left;
+        margin-right: 10px;
+        
+    }
+}
+.alertMarquee {
+	width: 85%;
+	height: 3rem;
+	background: pink;
+	float: left;
+	color: white;
+    padding-top: 20px;
+
+}
+.axaMansardLeft {
+	width: 68%;
+	height: 100%;
+    float: left;
+    margin-right: 3%;
+}
+.axaMansardRight {
+	width: 29%;
+	height: 100%;
+    float: left;
+    
+}
+.timer{
+    width: 100%;
+    height: 4rem;
+    background: teal;
+}
+.timerText{
+    width: 30%;
+    height: 4rem;
+    background:#00ADC6;
+    color: white;
+    float: left;
+    padding: 0.3rem;
+}
+.timerText p{
+    font-size: 10px;
+}
+.timerValue{
+    width: 70%;
+    height: 4rem;
+    background:#027280;
+    color: white;
+    float: left;
+    font-size: 1.5rem;
+    padding:0.3rem;
+    text-align: center;
+}
+.timerValue p{
+    font-size: 11px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.alert{
+    width: 50%;
+    height: 28rem;
+    float: left;
+    color: darkblue;
+    padding-top: 2rem;
+    display: block;
+    margin-bottom: 0.5rem;
+    overflow: hidden;
+}
+
+.timeline{
+    width: 100%;
+    height: 5rem;
+    color: darkblue;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.timeline h3{
+    color: darkblue;
+    float: left;
+    margin-top: 0;
+    font-size: 18px;
+    }
+.timeline a{
+    color: darkblue;
+    text-decoration: underline;
+    float: right;
+    text-transform: uppercase;
+}
+.alert img{
+    max-height: 20rem;
+}
+.alertNews{
+    width: 100%;
+    color: black;
+    padding: 1rem;
+}
+.alertNews h6{
+    font-size: 13px;
+    margin-bottom: 0;
+}
+.alertNews h3{
+    font-size: 15px;
+    margin-bottom: 0;
+}
+.alertNews a{
+    text-decoration: none;
+    color: black;
+}
+.alertNews p{
+    font-size: 10px;
+    margin-bottom: 0;
+}
+.alertNews small{
+    font-size: 7px;
+    margin-bottom: 0;
+}
+
+.eachSlide > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 350px;
+  }
+  
+  .eachSlide span {
+    padding: 20px;
+    font-size: 20px;
+    background: #efefef;
+    text-align: center;
+  }
+
+  .links{
+    width: 100%;
+    color: darkblue;
+    height: 100%;
+    display: block;
+    overflow: auto;
+    margin-bottom: 1rem;
+}
+.links a{
+    width: 30%;
+   height: 7rem;
+    background: darkblue;
+    float: left;
+    margin:1.5%;
+    cursor: pointer;
+    font-size: 13px;
+    padding: 1rem;
+    padding-top: 2rem;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.birthday{
+    width: 100%;
+    height: 30rem;
+}
+.avatars{
+    width: 100%;
+    height: 5rem;
+    margin-bottom: 10px;
+}
+.avatar{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+}
+.avatar img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 2%;
+}
+.avatarName{
+    width: 65%;
+    height: 5rem;
+    float: left;
+    padding: 0;
+}
+.avatarName h5{
+margin-top: 3px;
+   margin-bottom: 0;
+   font-weight: bold;
+   font-size: 13px;
+    }
+.avatarName small{
+font-size: 10px;
+color: crimson;
+}
+.cardOutline{
+    width: 90%;
+    height: 5.5rem;
+    border: 1px solid rgb(7, 125, 194);
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    margin-left: 0;
+}
+.ratings{
+    width: 33%;
+    height: 5rem;
+    float:left;
+    padding: 0.6rem;
+    text-align: center;
+    padding-right: 0;
+    text-align: center;
+    
+}
+.ratings h1{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.ratings h6{
+    font-size:11px;
+    text-align: left;
+}
+.ratingsOutline h1{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.ratingsOutline h6{
+    font-size:11px;
+    text-align: left;
+}
+
+.cust{
+    width: 80%;
+    height: 5rem;
+    float:left;
+    margin: 3px;
+    padding: .3rem;
+    text-align: center;
+}
+.cust h1{
+    font-size: 3.5rem;
+}
+.cust h3{
+    padding: .6rem;
+}
+.custs{
+    width: 10%;
+    height: 5rem;
+    float:left;
+    margin: 3px;
+    padding:1rem;
+}
+.custsx{
+    width: 10%;
+    height: 5rem;
+    float:left;
+    margin: 3px;
+    padding:1rem;
+    padding-left: 0;
+}
+.custsx .icons{
+   color: red;
+}
+
+.ratingsOutline{
+    width: 33%;
+    height: 5rem;
+    float:left;
+    border-right: 1px solid  rgb(7, 125, 194);
+    text-align: center;
+    padding: 0.6rem;
+    padding-right: 0;
+}
+.cardInner{
+    width: 100%;
+    padding: 2rem;
+}
+.icons{
+    font-size: 13px;
+    color: darkblue;
+   
+}
+.ratings small{
+    margin-bottom: 0;
+}
+
+.docCard{
+    width: 100%;
+    height: 5rem;
+    background: linear-gradient(90deg, rgba(0,26,149,1), rgba(0,125,183,1));
+    color: white;
+    padding: 0.1rem;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.docCardLeft{
+    width: 20%;
+    float: left;
+}
+.docCardRight{
+    width: 80%;
+    float: left;
+}
+.docCardRight h3{
+    font-size: 18px;
+    margin-bottom: 0;
+}
+.docCardRight p{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.spolights{
+    width: 100%;
+    height: 15rem;
+}
+.spolight{
+    width: 50%;
+    height: 15rem;
+    background: #FCD384;
+}
+
+.root{
+    width: 32%;
+    margin-right:1%;
+    height: 25rem;
+   float: left;
+  }
+  .media{
+    height: 200px;
+  }
+  .card{
+      width: 100%;
+      height: 25rem;
+      
+  }
+
